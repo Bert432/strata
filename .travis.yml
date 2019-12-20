@@ -10,10 +10,8 @@ matrix:
 addons:
  homebrew:
     packages:
-      - libgsl0-dev 
-      - qt510base 
-      - qt510tools 
-      - qt510svg
+      - gsl
+      - qt
 install:
   - source /opt/qt510/bin/qt510-env.sh
   - # Install QWT
