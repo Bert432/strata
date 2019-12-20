@@ -4,17 +4,11 @@ branches:
   - /^appveyor.*$/
 matrix:
   include:
-    - name: "Linux"
-      os: linux
-      dist: trusty
-      sudo: required
     - name: "OSX"
       os: osx
       osx_image: xcode10
 addons:
-  apt:
-    sources:
-      - sourceline: 'ppa:beineri/opt-qt-5.10.1-trusty'
+ homebrew:
     packages:
       - libgsl0-dev 
       - qt510base 
