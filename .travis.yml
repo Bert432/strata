@@ -9,6 +9,7 @@ matrix:
       osx_image: xcode10
 addons:
  homebrew:
+ brewfile: true
     packages:
       - gsl
       - qt
