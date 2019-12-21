@@ -14,7 +14,6 @@ addons:
       - gsl
       - qt
       - qwt
-      
 install:
   - # Install QWT
   - cd $TRAVIS_BUILD_DIR/..
