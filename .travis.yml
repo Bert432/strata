@@ -10,6 +10,7 @@ matrix:
 addons:
  homebrew:
  brewfile: true
+ 
     packages:
       - gsl
       - qt
